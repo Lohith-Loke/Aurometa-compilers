@@ -124,7 +124,7 @@ string w={0,1,00,01 ...}
 
 _Examples_:
 ⅀ ={a,b}
-⅀\* = {Ɛ,a,b,aa,ab,ba,bb,aaa ....}
+⅀* = {Ɛ,a,b,aa,ab,ba,bb,aaa ....}
 ⅀⁺ = {a,b,aa,ab,ba,bb,aaa ....}
 
 ---
@@ -140,7 +140,7 @@ i.e L ⊆ ⅀*
 
 Example:
 1.The set of palindrome over alphabet ⅀= {0,1} is an infinate language
-The language is ⅀\* = {Ɛ ,0,1,11,010,101,00100,......}
+The language is ⅀* = {Ɛ ,0,1,11,010,101,00100,......}
 
 2. the set of all strings over fixed alphabet 'a'
    if ⅀ ={a} then language is⅀* ={Ɛ,a,aa,aaa,aaaa, ......}
@@ -149,12 +149,22 @@ The language is ⅀\* = {Ɛ ,0,1,11,010,101,00100,......}
 here both language is infinate
 
 ---
-
----
-
 ### Language operations:
 
 #### complimet of language :
 
-    the compliment of a language L is denoted by 
+    the compliment of a language L is denoted by L' or(l bar )defined as 
+    L'=⅀* -L
+#### Reverse of language  :
+    denoted by L^R (L power R )defied as 
+    L^R={w^R| w ∈ L } where w is string 
+
+    example:
+    L={xy|x,y ∈ w }
+    L^R={yx|x,y ∈ w }
+
+#### concatination of languages :
+    let L₁ and L₂ be two languages .the concatination of the two languages is denoted by  L₁L₂ and defined as combination of string in both languages.
+    
+
 
